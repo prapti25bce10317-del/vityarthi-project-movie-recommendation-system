@@ -3,12 +3,12 @@
 ## 📌 Overview
 This project is a content-based movie recommendation system that suggests movies similar to a selected movie. It uses Natural Language Processing (NLP) techniques and cosine similarity to find relationships between movies based on their features.
 
----
+
 
 ## 🎯 Problem Statement
 With thousands of movies available, users often struggle to find relevant content. This project aims to solve that problem by recommending movies based on similarity in content such as genre, cast, keywords, and overview.
 
----
+
 
 ## 🧠 Approach
 1. Data Collection: TMDB 5000 Movie Dataset
@@ -18,7 +18,7 @@ With thousands of movies available, users often struggle to find relevant conten
 5. Similarity Calculation: Using cosine similarity to find similar movies
 6. Recommendation: Returning top 5 similar movies
 
----
+
 
 ## ⚙️ Technologies Used
 - Python
@@ -26,7 +26,7 @@ With thousands of movies available, users often struggle to find relevant conten
 - Scikit-learn
 - Streamlit
 
----
+
 
 ## ▶️ How to Run the Project
 
@@ -54,7 +54,7 @@ streamlit run app.py
 
 
 
----
+
 
 ## 💡 Features
 - Movie recommendation based on content similarity
@@ -62,14 +62,14 @@ streamlit run app.py
 - Real-world dataset usage
 - Modular code structure
 
----
+
 
 ## 🚧 Challenges Faced
 - Handling large dataset efficiently
 - Feature extraction from JSON-like columns
 - Performance optimization using caching
 
----
+
 
 ## 📈 Future Improvements
 - Add movie posters using API
