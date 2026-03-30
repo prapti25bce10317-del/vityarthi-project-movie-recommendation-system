@@ -1,0 +1,4 @@
+Exploratory Data Analysis:
+- Dataset contains movie metadata
+- Features used: genres, keywords, cast, overview
+- Approach: Content-based filtering using NLP

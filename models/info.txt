@@ -1,0 +1,2 @@
+Model: CountVectorizer + Cosine Similarity
+Type: Content-based recommendation system
