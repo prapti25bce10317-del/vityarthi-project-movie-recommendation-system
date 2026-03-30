@@ -1,6 +1,6 @@
-# 🎬 Movie Recommendation System 
+#  Movie Recommendation System 
 
-## 📌 Overview
+##  Overview
 This project is a Movie Recommendation System designed to help users discover movies tailored to their preferences using machine learning techniques. With the rapid growth of digital content, users often face difficulty in choosing what to watch. This system addresses that problem by providing personalized movie suggestions based on similarities between movies.
 
 The recommendation engine is built using a content-based filtering approach, where movies are analyzed based on features such as genres, keywords, cast, and other metadata. These features are processed and transformed into numerical representations, enabling the system to compute similarity scores between movies using techniques like cosine similarity.
@@ -12,12 +12,12 @@ The project demonstrates the practical application of data preprocessing, featur
 
 
 
-## 🎯 Problem Statement
+##  Problem Statement
 With thousands of movies available, users often struggle to find relevant content. This project aims to solve that problem by recommending movies based on similarity in content such as genre, cast, keywords, and overview.
 
 
 
-## ⚙️ Approach
+##  Approach
 The development of the Movie Recommendation System follows a structured pipeline involving data processing, feature engineering, and similarity-based prediction.
 
 Initially, a dataset containing movie information such as titles, genres, keywords, cast, and crew details is collected. This raw data is often unstructured and requires preprocessing. In this step, missing values are handled, irrelevant columns are removed, and important textual features are selected for further analysis.
@@ -36,7 +36,7 @@ Overall, this approach focuses on building an efficient, interpretable, and scal
 
 
 
-## ⚙️ Technologies Used
+##  Technologies Used
 - Python
 - Pandas
 - Scikit-learn
@@ -44,7 +44,7 @@ Overall, this approach focuses on building an efficient, interpretable, and scal
 
 
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### 1. Clone the Repository
 git clone https://github.com/prapti25bce10317-del/vityarthi-project-movie-recommendation-system.git
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-## 📂 Project Structure
+##  Project Structure
 
 - src/ → Core ML logic  
 - data/ → Dataset files  
@@ -72,7 +72,7 @@ streamlit run app.py
 
 
 
-## 💡 Features
+##  Features
 - Movie recommendation based on content similarity
 - Interactive UI using Streamlit
 - Real-world dataset usage
@@ -80,14 +80,14 @@ streamlit run app.py
 
 
 
-## 🚧 Challenges Faced
+##  Challenges Faced
 - Handling large dataset efficiently
 - Feature extraction from JSON-like columns
 - Performance optimization using caching
 
 
 
-## 📈 Future Improvements
+##  Future Improvements
 - Add movie posters using API
 - Use advanced models like TF-IDF or deep learning
 - Deploy the application online
