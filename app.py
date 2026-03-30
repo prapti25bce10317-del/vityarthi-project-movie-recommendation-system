@@ -4,7 +4,7 @@ from src.feature_engineering import transform_data
 from src.model import create_similarity
 from src.recommender import recommend
 
-st.title("🎬 Movie Recommendation System")
+st.title(" Movie Recommendation System")
 
 # Load and process data
 movies = load_data()
